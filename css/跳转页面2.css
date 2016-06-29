@@ -1,0 +1,41 @@
+﻿@charset "utf-8";
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #2e09f5;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #b9acf0;
+  border: 1px solid #b9acf0;
+}
+
+
+/*
+ * Base structure
+ */
+
+body  {
+    background: url(../picture/5.jpg) no-repeat center center fixed; 
+    background-size: 100%;
+}
+body {
+	font-family:黑体;
+	font-size:4px;
+	text-align:right;
+	text-align:justify;
+	font-size:1.1em; 
+ }
+
+ .move { position:relative; left:180px; top:0px;}
+	

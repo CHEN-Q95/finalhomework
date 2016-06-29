@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+body  {
+    background: url(../picture/4.jpg) no-repeat center center fixed; 
+    background-size: cover; 
+}
+
+.SP{
+	position:absolute;
+	left: 280px;
+	top:65px;
+}
+body{
+	top:100px;
+	
+}
